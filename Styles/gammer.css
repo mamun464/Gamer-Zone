@@ -1,0 +1,77 @@
+body {
+    /* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Space Mono', monospace; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gammer img {
+    width: 100%;
+    /* object-fit: cover; */
+    margin-right: 20px;
+}
+
+.logo {
+    height: 41px;
+    display: flex;
+}
+
+.gammer {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.nav-title {
+    /* text-align: center; */
+    /* font-family: Work Sans;*/
+    font-size: 2.87rem;
+    font-weight: 700;
+}
+
+.nav-title .color-G {
+    color: #FF42A5;
+}
+
+.nav-content {
+    width: 50%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.nav-container {
+    display: flex;
+    padding: 30px ;    
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
+.fa-youtube{
+    color:#F61C0D;
+    margin-left: 24px;
+    margin-right: 16px;
+}
+
+.follow-icon{
+    border-radius: 8px;
+    background: #0b02231a;
+    padding: 17px;
+
+}

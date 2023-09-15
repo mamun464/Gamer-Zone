@@ -1,0 +1,22 @@
+@media screen and (max-width:576px) {
+    .nav-container,
+    .nav-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gammer img {
+        width: 87px;
+        /* object-fit: cover; */
+        margin-right: 20px;
+    }
+
+    .gammer{
+        margin-bottom: 50px;
+    }
+
+    .nav-content a{
+        margin-bottom: 50px;
+    }
+   
+}
