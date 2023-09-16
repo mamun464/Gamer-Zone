@@ -27,7 +27,7 @@ font-family: 'Space Mono', monospace; */
     display: flex;
     align-items: center;
     width: 50%;
-    justify-content: center;
+    justify-content: start;
 }
 
 .nav-title {
@@ -49,11 +49,18 @@ font-family: 'Space Mono', monospace; */
     justify-content: space-evenly
 }
 
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+
 .nav-container {
     display: flex;
-    padding: 30px ;    
+    padding: 30px 30px 30px 20px;
     max-width: 1400px;
     margin: 0 auto;
+    
 }
 
 .nav-content a {
@@ -63,15 +70,124 @@ font-family: 'Space Mono', monospace; */
     font-weight: 500;
 }
 
-.fa-youtube{
-    color:#F61C0D;
+.fa-youtube {
+    color: #F61C0D;
     margin-left: 24px;
     margin-right: 16px;
 }
 
-.follow-icon{
+.follow-icon {
     border-radius: 8px;
     background: #0b02231a;
     padding: 17px;
+
+}
+
+/* banner section started */
+
+.banner {
+    display: flex;
+
+}
+
+.banner-header {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-goat {
+    /* text-align: center; */
+    font-size: 5.99rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.colour-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-sub-text {
+    color: #534C64;
+    /* text-align: center; */
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.fa-solid {
+    margin-right: 12px;
+}
+
+.fa-play {
+    border: 2px solid black;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+.fa-download,
+.fa-user-group {
+    font-size: 1.7rem;
+}
+
+.banner-inner {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-pink {
+    /* display: inline-flex; */
+    padding: 21px 40px;
+    border: 0;
+    border-radius: 48px;
+    background: #FF42A5;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 24px;
+}
+
+.btn-blue {
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: 0;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container img {
+    width: 70%;
+}
+
+
+
+.banner-content {
+    width: 50%;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
 
 }

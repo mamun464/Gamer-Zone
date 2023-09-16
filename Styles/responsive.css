@@ -18,5 +18,40 @@
     .nav-content a{
         margin-bottom: 50px;
     }
-   
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content, .img-container {
+
+        width: 100%;
+    }
+
+    .img-container img {
+        margin: 20px;
+        padding: 0 80px;
+        width: 100%;
+    }
+
+    nav{
+        box-shadow: none;
+        
+    }
+
+
+    .banner-content{
+        margin: 50px;
+        margin-left: 30px;
+        padding-bottom: 50px;
+        background-position: center;
+    }
+
+    .banner-header{
+        padding-top: 50px;
+    }
+    
+    
+
+
 }
