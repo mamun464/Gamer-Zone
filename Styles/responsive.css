@@ -1,6 +1,8 @@
 @media screen and (max-width:576px) {
+
     .nav-container,
-    .nav-content{
+    .nav-content,
+    .we-gamer-container {
         flex-direction: column;
         align-items: center;
     }
@@ -11,11 +13,11 @@
         margin-right: 20px;
     }
 
-    .gammer{
+    .gammer {
         margin-bottom: 50px;
     }
 
-    .nav-content a{
+    .nav-content a {
         margin-bottom: 50px;
     }
 
@@ -23,7 +25,10 @@
         flex-direction: column-reverse;
     }
 
-    .banner-content, .img-container {
+    .banner-content,
+    .img-container,
+    .img-container,
+    .we-gammer-conent {
 
         width: 100%;
     }
@@ -34,24 +39,95 @@
         width: 100%;
     }
 
-    nav{
+    nav {
         box-shadow: none;
-        
+
     }
 
 
-    .banner-content{
+    .banner-content {
         margin: 50px;
         margin-left: 30px;
         padding-bottom: 50px;
         background-position: center;
     }
 
-    .banner-header{
+    .banner-header {
         padding-top: 50px;
     }
-    
-    
+
+    .we-gamer-container .img-container img {
+        margin: 0 auto;
+
+        width: 100%;
+    }
+
+    .we-gammer-conent {
+        text-align: justify;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .gamer-title,
+    .gamer-despt,
+    .gamer-finish-line {
+        text-align: center;
+        /* width: 70%; */
+    }
+
+    .we-gamer-container {
+        background: none;
+    }
 
 
+
+
+
+    .game-card-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .online-game{
+        margin-left: 45px;
+    }
+
+    .we-gamer-container{
+        margin-left: 45px;
+    }
+
+    .play-instant{
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* border: 2px solid blue; */
+        width: 100%;
+    }
+    .instat-img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+    }
+    .instant-content {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+        margin-bottom: 85px;
+    }
+
+    .play-instant .big-img{
+            width: 60%;
+    }
+    .play-instant .small-img img{
+        width: 70%;
+    }
+    .play-instant .small-img{
+        top: 70%;
+        left: 70%;
+    }
 }

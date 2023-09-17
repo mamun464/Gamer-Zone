@@ -49,10 +49,10 @@ font-family: 'Space Mono', monospace; */
     justify-content: space-evenly
 }
 
-nav{
+nav {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    
+
 }
 
 .nav-container {
@@ -60,7 +60,7 @@ nav{
     padding: 30px 30px 30px 20px;
     max-width: 1400px;
     margin: 0 auto;
-    
+
 }
 
 .nav-content a {
@@ -158,7 +158,7 @@ nav{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-right: 24px;
+    /* margin-right: 24px; */
 }
 
 .btn-blue {
@@ -170,6 +170,7 @@ nav{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    margin-left: 24px;
 
 }
 
@@ -190,4 +191,262 @@ nav{
     background-size: cover;
     /* background-position: center; */
 
+}
+
+.we-gamer-container {
+    display: flex;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.img-container {
+    width: 50%;
+}
+
+.we-gammer-conent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    margin-right: 240px;
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.we-gamer-container .btn-know {
+    margin-right: 0px;
+}
+
+
+
+.gamer-despt {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    width: 520px;
+    /* 166.667% */
+}
+
+.gamer-finish-line {
+    width: 520px;
+}
+
+.we-gamer-container .img-container img {
+    margin: 55px 52px 55px 140px;
+
+    width: 100%;
+}
+
+.gamer-finish-line .top-line {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.gamer-finish-line .last-line {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.online-title {
+    margin-top: 80px;
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-game,
+.play-instant {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.online-despt {
+    text-align: center;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+    /* 166.667% */
+}
+
+.game-card-container .card img {
+    width: 342px;
+    height: 400px;
+}
+
+.game-despt {
+    text-align: center;
+    width: 342px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+
+.card .image-container .overlay-text>.fa-circle-play {
+    color: white;
+    font-size: 48px;
+}
+
+.pink-text-color {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overlay-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.game-card-container {
+    display: flex;
+}
+
+
+
+.card {
+    margin-right: 24px;
+}
+
+/* .game-card-container .card img:hover {
+    border: 5px solid #FF42A5;
+    transition: border 0.1s;
+    border-radius: 24px;
+    cursor: pointer;
+} */
+
+/* ..........................................Overlay text....................................... */
+/* Style for the image container */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+
+
+/* Style for the overlay */
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97.8%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black overlay color with opacity */
+    opacity: 0;
+    border: 5px solid #FF42A5;
+    /* Pink border when hovered */
+    transition: border 0.1s;
+    border-radius: 24px;
+    cursor: pointer;
+
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 24px;
+    /* Rounded corners for the overlay */
+}
+
+/* Style for the text that appears on hover */
+.image-container .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* When you hover over the image container, make the overlay and text visible */
+.image-container:hover::before,
+.image-container:hover .overlay-text,
+.game-card-container .card #cover-img:hover {
+    opacity: 1;
+
+}
+
+
+
+.play-instant {
+    display: flex;
+    margin-top: 120px;
+}
+
+.instant-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+    width: 426px;
+    margin-bottom: 24px;
+    /* 125% */
+}
+
+.text-purple{
+    background: linear-gradient(180deg,  #ca4fcc 0%, #b851d6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #F948B2, #8758F1; */
+}
+
+.instat-img-container {
+    width: 50%;
+    position: relative;
+}
+
+.instant-content {
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.instant-despt{
+    color: #534C64;
+    width: 483px;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.inner-content {
+    width: max-content;
+    
+}
+
+.big-img{
+    /* width: 90%; */
+}
+
+.small-img{
+    /* width: 20%; */
+    position: absolute;
+    left: 75%;
+    top: 60%;
 }
