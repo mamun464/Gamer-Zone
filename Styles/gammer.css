@@ -196,7 +196,7 @@ nav {
 
 /* >>>>>>>>>>>>>>>>>>>>>>we are gamer section start */
 .we-gamer-container {
-    border: 5px solid rgb(238, 255, 0);
+    /* border: 5px solid rgb(238, 255, 0); */
     display: flex;
     min-height: 200px;
 }
@@ -433,12 +433,12 @@ we-gamer-container .btn-know {
 
 .instat-img-container .big-img {
     width: 70%;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen; */
 }
 
 .instat-img-container .small-img img {
     width: 100%;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen; */
     /* width: max-content; */
 }
 
@@ -532,6 +532,7 @@ we-gamer-container .btn-know {
 
 footer {
     background: #0B0223;
+
 }
 
 .hide {
@@ -539,15 +540,94 @@ footer {
 }
 
 footer {
-    height: 336px;
+    /* height: 336px; */
+    /* border: 3px solid red; */
+    padding: 100px 0;
+    margin-top: 100px;
 }
 
 footer .white-color {
     color: white;
 }
 
-footer .x{
-    text-align: center;
+footer .x {
+    /* text-align: center; */
     font-size: 2.81rem;
     font-weight: 700;
+}
+
+.our-servies a {
+    text-decoration: none;
+    margin-right: 60px;
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.our-servies{
+    margin-top: 70px;    
+}
+
+.social-media-container{
+    margin-top: 66px;
+}
+
+.terms-condition{
+    margin-top: 70px;
+    margin-bottom:28px;
+}
+
+.social-media{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 40px;
+    /* border: 2px solid white; */
+}
+
+.fa-brands{
+    
+    color: white;
+}
+
+.fa-youtube{
+    width: 57.13px;
+   
+}
+
+.our-servies .extra{
+    margin-right: 0;
+}
+
+.terms-condition a{
+    color: #ffffff99;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.copyright{
+    color: #ffffff99;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-container{
+    /* border: 2px solid yellow; */
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
 }

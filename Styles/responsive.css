@@ -210,6 +210,44 @@
         /* padding: 0 40px; */
     }
 
+    .footer-container{
+        width: 100%;
+    }
+
+    .our-servies a{
+        margin: 0;
+    }
+
+    .our-servies{
+        /* width: max-content; */
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 80px;
+    }
+    
+    .social-media-container .social-media{
+        margin: 0;
+    }
+    .terms-condition{
+        margin: 0;    }
+    .social-media-container{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 60px;
+        margin-bottom: 60px;
+
+    }
+
+    .terms-condition{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 60px;
+        margin-bottom: 45px;
+        
+    }
 
 }
 
