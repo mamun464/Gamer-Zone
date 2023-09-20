@@ -70,18 +70,19 @@ nav {
     font-weight: 500;
 }
 
-.fa-youtube {
-    color: #F61C0D;
-    margin-left: 24px;
-    margin-right: 16px;
-}
 
 .follow-icon {
     border-radius: 8px;
     background: #0b02231a;
     padding: 17px;
-
 }
+
+.fa-youtube {
+    color: #F61C0D;
+    margin-left: 24px;
+    /* margin-right: 16px; */
+}
+
 
 /* banner section started */
 
@@ -534,7 +535,7 @@ footer {
     background: #0B0223;
 
 }
-
+ 
 .hide {
     display: none;
 }
